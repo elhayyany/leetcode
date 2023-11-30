@@ -9,6 +9,5 @@ class Solution:
                 dic[g] = 0
                 g += 1
             dic[i] = g - i + (0 if g not in dic else dic[g])
-            print(dic[i])
         return max(dic.values())
                 
