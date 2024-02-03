@@ -9,7 +9,6 @@ class Solution:
                 i += 1
                 if i == k:
                     return j
-        print(k, i, factors)
         if k - i <= len(factors):
             return factors[i-k]
         return -1
