@@ -5,7 +5,7 @@ class Solution:
 
         for i in range(len(s)):
             if s[i] in chars:
-                chars.clear()
+                chars = set()
                 j += 1
             chars.add(s[i])
         return j + 1
